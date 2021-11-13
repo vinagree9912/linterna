@@ -1,0 +1,14 @@
+.CounterItem{
+    color:#DFBF53;
+    font-size: 80px;
+    word-break:break-all;
+    display:inline;
+    position: relative;
+    padding-left:150px;
+    line-height: 200px;
+
+}
+td{
+    padding-right: 500px;
+
+}

@@ -1,0 +1,13 @@
+img{
+    width: 400px;
+    height: 400px;
+
+}
+h1{
+    color:white;
+    font-size: 250px;
+    margin-top: -350px;
+    margin-left: 25%;
+    font-family: "Courier New", Monaco, Monospace ;
+    font-weight: 90;
+}

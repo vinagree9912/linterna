@@ -1,0 +1,19 @@
+.Search{
+    color:#DFBF53;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+::placeholder {
+    color: #DFBF53;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    padding-top: 30px;
+
+
+}
+
