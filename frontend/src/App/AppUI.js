@@ -7,25 +7,28 @@ import {CounterItem} from "../CounterItem/CounterItem";
 
 
 function AppUI ({
-                    vuelos,
                     columns,
                     searchValue,
-                    setSearchValue
+                    setSearchValue,
+                    searchedinTv,
 
 }) {
     return (
         <React.Fragment>
             <CounterTittle/>
-            <Search searchValue={searchValue} setSearchValue={setSearchValue}/>
-            <CounterMatriz columns={columns}>
-                {vuelos.map(x =>
+            <Search
+                searchValue = {searchValue}
+                setSearchValue = {setSearchValue}
+            />
+            <CounterMatriz columns = {columns}>
+                {searchedinTv.map(x =>
                     <CounterItem
-                        key={x.flight}
-                        flight={x.flight}
-                        time={x.time}
-                        gate={x.gate}
-                        remarks={x.remarks}
-                        destination={x.destination}
+                        key = {x.flight}
+                        flight = {x.flight}
+                        time = {x.time}
+                        gate = {x.gate}
+                        remarks = {x.remarks}
+                        destination = {x.destination}
                     />
 
                 )}

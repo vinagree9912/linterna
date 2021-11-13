@@ -6,9 +6,9 @@ function CounterMatriz (props) {
     return (
         <section>
             {props.columns.map(word => <th className={"CounterMatriz"}>{word}</th>)}
-        <ul>
+        <span>
             {props.children}
-        </ul>
+        </span>
     </section>);
 }
 
