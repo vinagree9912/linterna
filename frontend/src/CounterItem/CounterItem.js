@@ -3,13 +3,13 @@ import './CounterItem.css';
 function CounterItem (props) {
     return (
         <div>
-            <tr className={"CounterItem"}>
+            <tr className={`CounterItem ${props.searched}`}>
 
-                <td>{props.time}</td>
-                <td>{props.destination}</td>
-                <td>{props.flight}</td>
-                <td>{props.gate}</td>
-                <td>{props.remarks}</td>
+                <td><strong>{props.time}</strong></td>
+                <td><strong>{props.destination}</strong></td>
+                <td><strong>{props.flight}</strong></td>
+                <td><strong>{props.gate}</strong></td>
+                <td><strong>{props.remarks}</strong></td>
 
 
 
